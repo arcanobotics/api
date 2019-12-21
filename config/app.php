@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
+        Arcanobotics\Api\Providers\AppServiceProvider::class,
+        Arcanobotics\Api\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Arcanobotics\Api\Providers\EventServiceProvider::class,
+        Arcanobotics\Api\Providers\RouteServiceProvider::class,
 
     ],
 

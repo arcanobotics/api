@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ollieread\\MMO\\API\\": "app/"
+            "Arcanobotics\\Api\\": "app/"
         },
         "classmap": [
             "database/seeds",

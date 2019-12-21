@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Arcanobotics\Api\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
+use Arcanobotics\Api\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 

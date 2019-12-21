@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Arcanobotics\Api\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use Arcanobotics\Api\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller
